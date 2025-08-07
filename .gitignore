@@ -1,0 +1,24 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+.venv/
+venv/
+
+# Ignore model weights
+trained_models/shape_predictor_68_face_landmarks.dat
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore VSCode settings (if using)
+.vscode/
+
+# Ignore compiled files
+*.so
